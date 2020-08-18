@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
      padding:0;
  }
 
- *
+ * !important
  {
      box-sizing:border-box;
  }
@@ -53,7 +53,10 @@ button {
     text-align:center;
 
 }
-
+ 
+div{
+    box-sizing:border-box;
+}
 
 
  `;
