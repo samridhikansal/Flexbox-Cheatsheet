@@ -7,6 +7,9 @@ import Header from "./components/header";
 import FlexDirection from "./components/FlexDirection";
 import FlexWrap from "./components/FlexWrap";
 import JustifyContent from "./components/justifyContent";
+import AlignItem from "./components/alignItem";
+import FlexGrow from "./components/flexgrow";
+import FlexShrink from "./components/flexshrink";
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
       <FlexDirection />
       <JustifyContent />
       <FlexWrap></FlexWrap>
+      <AlignItem></AlignItem>
+      <FlexGrow></FlexGrow>
+      <FlexShrink></FlexShrink>
     </>
   );
 }
